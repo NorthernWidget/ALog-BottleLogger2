@@ -1,0 +1,97 @@
+Bill of Material for Logger100PR.Bom
+
+Used Part Type                                     Designator Footprint                    Part Field 1                      Part Field 2       Part Field 3         Part Field 4 Part Field 5 Part Field 6   Part Field 7 Part Field 8
+==== ============================================= ========== ============================ ================================= ================== ==================== ============ ============ ============== ============ ===============
+14   0u1                                           C1 C2 C3A  0805N2                       CAP .10UF 50V CERAMIC X7R 0805    CC0805KRX7R9BB104  311-1140-1-ND        DK           OK           0.049          10           *
+                                                   C3B C3C C6
+                                                   C9 C19 C21
+                                                   C22 C24
+                                                   C25 C27
+                                                   C28
+5    1K                                            R9 R12 R34 0805N2                       *                                 *                  *                    *            *            *              *            *
+                                                   R43 R44
+2    1M                                            R37 R41    0805N2                       RES ANTI-SURGE 1M OHM 5% 0805     ERJ-P06J105V       P1.0MADCT-ND         DK           OK                          *            *
+2    1uF                                           C11 C12    0805N2                       *                                 *                  *                    *            *            *              *            *
+2    2u2                                           C4 C5      0805N2                       *                                 *                  *                    *            *            *              *            *
+4    3K                                            R7 R8 R26  0805N2                       *                                 *                  *                    *            *            *              *            *
+                                                   R27
+1    3n3                                           C3         0805N2                       *                                 *                  *                    *            *            *              *            *
+2    4K7                                           R10 R11    0805N2                       *                                 *                  *                    *            *            *              *            *
+1    4u7, T                                        C26        3216                         CAP TANTALUM 4.7UF 6.3V 10% SMD   B45196H1475K109    495-2177-1-ND        DK           OK                          *            *
+1    4u7                                           C20        3216                         CAP TANTALUM 4.7UF 6.3V 10% SMD   B45196H1475K109    495-2177-1-ND        DK           OK                          *            *
+1    7.5V 1W                                       ZD1        SMA-DIODE                    DIODE ZENER 7.5V 1W DO214AC       SMAJ4737A-TP       SMAJ4737A-TPMSCT-ND  DK           OK           0.66           1            *
+1    8MHz                                          Y1         CM309S                       CRYSTAL 8.0000 MHZ 18PF SMD       CM309S8.000MABJ-UT 300-8642-1-ND        DK           OK           0.77600        100
+3    10K                                           R14 R30    0805N2                       *                                 *                  *                    *            *            *              *            *
+                                                   R31
+1    10R                                           R32        0805N2                       *                                 *                  *                    *            *            *              *            *
+1    10uF                                          C10        RB.1/.2                      *                                 *                  *                    *            *            *              *            *
+1    10uH                                          L1         0805N2                       *                                 *                  *                    *            *            *              *            *
+2    33pF                                          C7 C8      0805N2                       *                                 *                  *                    *            *            *              *            *
+1    74HC138N                                      U13        TSSOP-16R2_4.5MM             *                                 *                  *                    *            *            *              *            *
+4    100K                                          R25 R28    0805N2                       RES 100K OHM 1/8W 5% 0805 SMD     ERJ-6GEYJ104V      P100KACT-ND          DK           OK                          *            *
+                                                   R38 R39
+2    100R                                          R29 R45    0805N2                       RES 1.0K OHM 1/8W 5% 0805 SMD     RC0805JR-071KL     311-1.0KARCT-ND      Digi-Key     Lead free    RoHS compliant *            *
+1    120R                                          R46        0805N2                       *                                 *                  *                    *            *            *              *            *
+1    200K                                          R36        0805N2                       *                                 *                  *                    *            *            *              *            *
+1    220R                                          R15        0805N2                       *                                 *                  *                    *            *            *              *            *
+4    330R                                          R17 R18    0805N2                       *                                 *                  *                    *            *            *              *            *
+                                                   R33 R42
+1    470K                                          R16        0805N2                       *                                 *                  *                    *            *            *              *            *
+1    470R                                          R13        0805N2                       *                                 *                  *                    *            *            *              *            *
+1    510R, 1W                                      R35        1210N2                       *                                 *                  *                    *            *            *              *            *
+1    510R                                          R40        0805N2                       *                                 *                  *                    *            *            *              *            *
+1    2051-09-SM-RPLF                               SG1        1812                         GDT 90V 30% 2KA SURFACE MOUNT     2051-09-SM-RPLF    2051-09-SM-RPLFCT-ND DK           OK           1.10           1            *
+1    61729-0010BLF                                 J1         USB-B RECEPTICAL             JACK_FCI_61729-0010BLF            *                  *                    *            *            *              *            *
+1    1734234-1                                     SD1        AMP_SD_1734234-1             *                                 *                  *                    *            *            *              *            *
+1    ALOG LOGO                                     LOGO1      ALOG_LOGO_V1_SMALL           BAR CODE FIELD - NOT A PART       N/A                N/A                  N/A          N/A          N/A            N/A
+1    AT24CM01-XHM-T                                U19        SO-8                         IC EEPROM 1MBIT 1MHZ 8TSSOP       AT24CM01-XHM-T     AT24CM01-XHM-TCT-ND  DK           OK           3.36           1            *
+1    ATMEGA1284P_TQFP                              U1         TQFP-44-10X10X1_0.8_SOT376-1 *                                 *                  *                    *            *            *              *            *
+1    BAT54A-7-F                                    D6         SOT-23                       *                                 *                  *                    *            *            *              *            *
+1    BAT54C-7-F                                    D4         SOT-23                       *                                 *                  *                    *            *            *              *            *
+1    BR1225-1HC                                    B1         BR1225/1HF2                  BATTERY LITH 12.5MM COIN W/LEGS   BR1225-1HC         P191-ND              DK           OK                          1.78000      DNP for Wincatt
+2    BSS138                                        Q3 Q4      SOT-23                       *                                 *                  *                    *            *            *              *            *
+1    CON3                                          J4         MOLEX-6373-3                 *                                 *                  *                    *            *            *              *            *
+2    CON4                                          H3 J3      MOLEX-6373-4                 CONN HEADER 4POS .100 VERT GOLD   22-28-4043         WM6504-ND            DK           OK                          *            *
+1    CON6                                          J6         HEADER-6X1                   *                                 *                  *                    *            *            *              *            *
+1    CON6                                          J5         MOLEX-6373-6                 CONN HEADER 3POS .100 VERT GOLD   22-28-4033         WM6503-ND            DK           OK           0.4            1            *
+2    CON8                                          H1 H2      MOLEX-6373-8                 *                                 *                  *                    *            *            *              *            *
+1    DS3231                                        U6         SOL-16R2                     *                                 *                  *                    *            *            *              *            *
+1    EVQPE1                                        SW1        SWITCH_EVQPE1_PANASONIC      SWITCH TACTILE SPST-NO 0.05A 12V  EVQ-PE104K         P13593SCT-ND         DK           OK           0.8            10           *
+2    FDN360P                                       Q1 Q2      SOT-23                       *                                 *                  *                    *            *            *              *            *
+1    FT232RL_M2_R1                                 U5         SSOP-28                      *                                 *                  *                    *            *            *              *            *
+1    HEADER 2L                                     JP6        HEADER-2X1                   *                                 *                  *                    *            *            *              *            *
+2    HEADER 4X2                                    JP2 JP3    HEADER-4X2                   *                                 *                  *                    *            *            *              *            *
+1    HEADER 5X2                                    JP4        HEADER-5X2                   *                                 *                  *                    *            *            *              *            *
+1    ISP                                           JP1        HEADER-8X2                   *                                 *                  *                    *            *            *              *            *
+1    LM4132-2.5                                    U18        SOT-23-5                     IC PREC MICRO LDO REF SOT-23-5    LM4132AMF-2.5/NOPB LM4132AMF-2.5CT-ND   DK           OK                          *            *
+2    LP2985                                        U2 U3      SOT-23-5                     *                                 *                  *                    *            *            *              *            *
+1    LTC1482CS8                                    U12        SO-8                         IC TXRX RS485 LOWPWR 8-SOIC       LTC1482CS8#PBF     LTC1482CS8#PBF-ND    DK           OK                          $4.46        *
+1    LTC1669                                       U15        MSOP-8                       IC DAC 10BIT R-R I2C 8-MSOP       LTC1669CMS8#PBF    LTC1669CMS8#PBF-ND   DK           OK           3.69           1            *
+1    LTC4412                                       U7         SOT-23-6                     *                                 *                  *                    *            *            *              *            *
+1    MC14050UB                                     U4         TSSOP-16R2_4.5MM             *                                 *                  *                    *            *            *              *            *
+1    MF-R010                                       F2         1210N2                       POLYSWITCH 0.50A RESET FUSE SMD   MICROSMD050F-2     MICROSMD050FCT-ND    DK           OK                          *            *
+2    MMBZ5V6ALT1                                   TVS2 TVS3  SOT-23                       TVS ZENER DUAL 24W CA 5.6V SOT23  MMBZ5V6ALT1G       MMBZ5V6ALT1GOSCT-ND  DK           OK                          *            *
+1    NORTHERN WIDGET LOGO                          LOGO2      NWLOGO                       BAR CODE FIELD - NOT A PART       N/A                N/A                  N/A          N/A          N/A            N/A
+1    RESET                                         SW2        SWITCH_EVQPE1_PANASONIC      *                                 *                  *                    *            *            *              *            *
+1    RX                                            D3         LED-1206                     *                                 *                  *                    *            *            *              *            *
+19   SEL                                           C13 C14    0805N2                       *                                 *                  *                    *            *            *              *            *
+                                                   C15 C16
+                                                   C17 C18
+                                                   C23 R1 R2
+                                                   R3 R4 R5
+                                                   R6 R19 R20
+                                                   R21 R22
+                                                   R23 R24
+1    SF1                                           D1         LED-1206                     *                                 *                  *                    *            *            *              *            *
+1    SJ-3504                                       J2         PCOAX-VER4                   *                                 *                  *                    *            *            *              *            *
+2    SN74AHC1G14DBVR                               U9 U10     SOT-23-5                     IC SCHMITT-TRG INV GATE SOT23-5   SN74AHC1G14DBVR    296-1092-1-ND        DK           OK           0.66           1            *
+1    SN74LVC1G08DBVR                               U16        SOT-23-5                     *                                 *                  *                    *            *            *              *            *
+1    SN74LVC1G125DBVR                              U8         SOT-23-5                     IC BUS BUFF TRI-ST N-INV SOT23-5  SN74LVC1G125DBVR   296-11603-1-ND       DK           OK           0.52           1            *
+1    SN74LVC1G126DBVR                              U11        SOT-23-5                     *                                 *                  *                    *            *            *              *            *
+1    SN74LVC1G3157                                 U17        SOT-23-6                     *                                 *                  *                    *            *            *              *            *
+1    TMP101                                        U14        SOT-23-6                     IC TEMP SENSOR DIGITAL SOT-23-6   TMP101NA/250       296-12750-1-ND       DK           OK           2.1783         100          *
+1    TX                                            D2         LED-1206                     *                                 *                  *                    *            *            *              *            *
+1    TZ5.6V                                        D5         SMB-DIODE                    DIODE ZENER 3W 5.6V SMB           1SMB5919BT3G       1SMB5919BT3GOSCT-ND  DK           OK                          *            *
+1    USBLC6-2                                      TVS1       SOT-23-6                     IC ESD PROTECTION FOR HS SOT-23-6 USBLC6-2SC6Y       497-11882-1-ND       DK           OK           1.046          10           DNP
+1    VBE                                           JP5        HEADER-2X1                   *                                 *                  *                    *            *            *              *            *
+1    microSMD050                                   F1         1210N2                       POLYSWITCH 0.50A RESET FUSE SMD   MICROSMD050F-2     MICROSMD050FCT-ND    DK           OK                          *            *               

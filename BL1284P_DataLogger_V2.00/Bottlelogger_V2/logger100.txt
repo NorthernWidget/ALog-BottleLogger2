@@ -1,0 +1,210 @@
+LOGGER100 V4 FEATURES SUMMARY:
+==============================
+
+NEW SPECIFICATIONS FOR V2 BOTTLE LOGGER 1284P
+=============================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+2015-JUL-22 GJO R1.001
+
+CORE:
+=====
+ATMEGA1284P PROCESSOR
+8MHZ CLOCK
+
+RTC:
+====
+DS3231 or DS3232 accurate RTC
+
+
+INPUT/OUTPUT:
+=============
+ANALOG 10-BIT IN: A0,A1,A2,A3,A6,A7 with resistor dividers and filtering (Same as original ALOG)
+DIGITAL: D6, D7 (Arduino)(Same as original ALOG)
+Additional: PC0-PC7 (PC4-7 shared with external SPI expansion)
+T0 count input(NEW) - Possible use: Raingage, Anemometer
+T1 count input(NEW) - Same as above
+Rain gauge should use INT2
+
+
+COMMUNICATIONS:
+===============
+UART0 - Console port and bootloader serial with FTDI USB Serial interface
+UART1 - Shared SDI-12 or RS485 port
+I2C   - Expansion bus for additional external devices
+SPI   - Up to 3 external SPI devices can be accessed
+
+
+EXTERNAL CONNECTORS:
+====================
+H1 - AIN0-3 scalable analog inputs, voltage divider with filtering or current shunt
+H2 - Ext INT2 and DIO6, DIO7
+H3 - AN6, AN7 scalable analog input or shunt with filtering
+
+J1 - USB SERIAL (FTDI232RL) and POWER INPUT from PC
+J2 - External 5VCD input (battery input)
+J3 - RS485 Port with 5V power hookup
+J4 - SDI-12 Port, 12V power must be supplied externally. terminal is not connected anywhere
+J5 - Power managed 3.3V I2C PORT and 10-bit DAC
+J6 - JY MCU (BT BOARD V1.0X) BLUETOOTH INTERFACE )
+J7 - SW1 access point to be used with magnetic reed switch to enable BT radio module
+
+JP2,3 - Plug-in voltage divider resistors or shunts
+JP4   - (5x2)PC-PC7 DIO with 5V
+JP1   - (8x2) ICSP, ext. 5V I2C, ext SPI with three chip selects via HC138 decoder with 5V and switched 3.3V
+JP5   - Battery Enable Jumper for longterm storage
+JP6   - RS485 Termination Enable
+
+
+CONFIGURATION:
+
+SP1: VREF SELECT:
+
+1-2 - LM4132 (Precision voltage reference 2.5-3V)
+2-3 - LEGACY MODE using the 3.3V regulator as VREF
+
+
+PROTECTION:
+===========
+5.6V Zener Diode Clamp on VCC
+SRF on External Battery input
+DIO6,7 resistor protected
+RS485 TVS protected
+SDI-12 SParkgap on COMM line
+
+PC0-PC4 direct without limiting Rs at the moment
+
+
+LATEST ADDITIONS:
+=================
+24C1024 1MB EEPROM
+BATTERY JUMPER (Saves battery when not used for a long time. Expected running battery life 2-3 years when not powered by primary power)
+(10+ years in storage)
+TMP101 Board Temperature Sensor
+Battery voltage monitoring shared with SDCARD VDD Enable
+
+External I2C Character LCD can be connected in the field for monitoring operation
+
+Added 2 terminal J2B power screw terminal connector in parallel with J2 to give choice of using coaxial or screw terminals
+
+
+
+HARDWARE RESOURCE INFORMATION:
+
+TASK:        RESOURCES:                COMMENT
+=============================================================================================================
+SDI-12       TXD2/RXD2/SDI-DIR             Only one interface can be used at one time, shared resource
+RS485        TXD2/RXD/485-DIR              Only one interface can be used at one time, shared resource
+SERIAL-USB   TXD1/RXD1/MANLOG=HIGH/VUSB    FTDI232RL must be connencted to USB host to receive power
+SERIAL-BT    TXD1/RXD1/MANLOG=LOW          MANLOG=LOW  notifies uC that MANLOG=LOW means COMM session active
+                                           SW1=0 also turns on power to the BT module
+                                           (See description for MAN LOG SWITCH usage)
+
+SD-CARD      DI/DO/SCK/CS(CSA=0,CSB=0)     SD-CARD access while CSA=CSB=LOW. CS strobe enables SD card
+                                           SDPSEN=1 to power up SD card
+
+EXT SPI 1    DI/DO/SCK/CS(CSA=1,CSB=0)     CS strobe enables selected device,
+EXT SPI 2    DI/DO/SCK/CS(CSA=0,CSB=1)     CS strobe enables selected device
+EXT SPI 3    DI/DO/SCK/CS(CSA=1,CSB=1)     CS strobe enables selected device
+
+3V3 I2C BUS  SDA1/SCL1 and 3V3 enabled     Devices on this bus operate only when 3V3 is anbled via 3V3EN=1
+5V  I2C BUS  SDA/SDA                       Devices on this bus operate all the time
+
+DIO AVAILABILITY:
+=================
+
+PORTA:
+======
+PA0    -    Analog Input A0
+PA1    -    Analog Input A1
+PA2    -    Analog Input A2
+PA3    -    Analog Input A3
+PA4    -    I2C SDA
+PA5    -    I2C SCL
+PA6    -    Analog Input A6
+PA7    -    Analog Input A7        (SD-Card off=A7, SD-CArd ON=VCC Power supply measurement)
+
+PORTB:
+======
+PB0    -    T0 Counter input or DIO
+PB1    -    T1 COunter Input or DIO
+PB2    -    External INT2 input (Shared)
+PB3    -    MAN LOG SW1 input
+PB4    -    SPI CS
+PB5    -    SPI MOSI
+PB6    -    SPI MISO
+PB7    -    SPI SCK
+
+
+PORTC:
+======
+PIN    JP4    RS485    SDI-12    SF1-LED    SPI    Comments
+------------------------------------------------------------------------------------------------------------
+PC0    FREE
+PC1    FREE
+PC2                                      USED    SPI Chip Select A via U13
+PC3                                      USED    SPI Chip Select B via U13
+PC4    FREE                                      Any use
+PC5                    USED                      SDI-12 TX enable
+PC6           USED                               RS485 TX Enable
+PC7    FREE                      USED            Shared with SF1 LED
+
+PORTD:
+======
+PD0/1  -    USART0 (BT module or USB Serial
+PD2/3  -    USART1 SDI-12 or RS485 and ind sleep mode is used to wake up processor frm RTC alarm output
+            and programmed to respond to INT0 vector
+
+PD4    -    3V3 Enable (USART1 RXD input mode change: 3V3EN=0 and sleep pin is INT0,
+            3V3EN=1 and awake pin is USART1 RXD
+PD5    -    SD-Card power enable (Switches also A7 analog pin to VBM pin, enabling VBAT measurement
+            when SD card is powered up.
+PD6    -    External DIO
+PD7    -    External DIO
+
+SWITCHES:
+=========
+
+------------------------------------------------------------------------------------------------------------
+SW1    MAN-LOG and BT enable
+-----------------------------
+SW1    Short Press        - Initiates a manual reading of inputs and stores to SD-CARD
+       Long press > 5s    - Switches BT module on while SW1 is closed. USed to remote manage logger from
+                            BT enabled mobile device or PC
+                            (Don't forget to disable the INT2 interrupt in this mode as it is not needed
+                             while running in BT mode)
+       Remove short       - Turn off BT module and return to automatic logging mode
+
+SW2    RESET CPU          - Complete system restart and if DTR initiated restart to enter bootloader
+
+
+INTS NOTES:
+===================
+
+INT0 is shared with USART1 and the RTC ALARM. In sleep mode the RTC has control (3.3V = 0). In active mode
+the RTC ALARM is disconnected and the pin used as a USART1 RX input.
+
+INT1 - Not available due to pinout. It is shared with USART1 TXD.
+
+INT2 - External interrupt for user
+
+
+LOGGER SLEEPING           -    RTC wakeup or external event via INT0 (Check DS3231 0xF Alarm register
+                               bit A1F or A2F if INT was caused by RTC)
+
+LOGGER SLEEPING and SW1=0 -    PINCHANGE INT to wake up CPU. Short press of button initates MANLOG as before.
+                               Long press of SW1 (>5s) wakes up CPU and switches on Bluetooth module on USART0
+                               to remotely manage logger and upload optionally data from SD card. (Intent is
+                               to avoid having to open the logger enclosure. )
+

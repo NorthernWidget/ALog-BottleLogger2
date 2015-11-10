@@ -1,0 +1,29 @@
+Protel Design System Design Rule Check
+PCB File : Bottlelogger_V2\logger100.pcb
+Date     : 26-Aug-2015
+Time     : 20:58:03
+
+Processing Rule : Clearance Constraint (Gap=7mil) (On the board ),(On the board )
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=16mil) (Max=200mil) (On the board )
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=6mil) (Max=50mil) (Prefered=10mil) (On the board )
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (On the board ) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Not Allowed) (On the board ),(On the board )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=20mil) (Is a Polygon  ),(Is a Keep-Out  )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (Is a Polygon  ),(Is a Track/Arc Thru-Hole Pad Smd Pad Via  )
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:03

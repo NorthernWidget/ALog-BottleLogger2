@@ -1,0 +1,119 @@
+Bill of Material for Logger100.Bom for BL1284P V2.00 Board Assembly 
+===================================================================
+DATE: 	2015-11-10
+VER:	2.00
+REV:	0
+WHO:	GJO
+-------------------------------------------------------------------
+
+
+Used Part Type                                    Designator Footprint                    Description                       Mfr. P/N             Vendor P/N              Vendor     Status     Price      Multiplier
+==== ============================================ ========== ============================ ================================= ==================== ======================= ========== ========== ========== ==========
+15   0u1                                          C1 C2 C3A  0805N2                       CAP CER 0.1UF 50V 10% X7R 0805    C0805C104K5RACTU     399-1170-1-ND           DK         OK         0.035      50
+                                                  C3B C3C C6
+                                                  C9 C19 C22
+                                                  C23 C24
+                                                  C25 C27
+                                                  C28 C30
+6    1K                                           R9 R12 R13 0805N2                       RES SMD 1K OHM 5% 1/8W 0805       RC0805JR-071KL       311-1.0KARCT-ND         DK         OK         0.14       1
+                                                  R43 R44
+                                                  R49
+2    1uF                                          C11 C12    0805N2                       CAP CER 10000PF 50V 10% X7R 0805  GRM216R71H103KA01D   490-1664-1-ND           DK         OK         0.043      1
+2    2u2                                          C4 C5      0805N2                       CAP CER 2.2UF 10V 10% X7R 0805    LMK212B7225KG-T      587-1286-1-ND           DK         OK         0.21       1
+1    3.3V                                         TP2        TESTPOINT-2                  PCB Primitive - Not  a part       N/A                  N/A                     N/A        N/A        N/A        N/A
+1    3K(DNP)                                      R52        0805N2                       RES SMD 3K OHM 5% 1/8W 0805       RC0805JR-073KL       311-3.0KARCT-ND         DK         OK         0.14       1
+5    3K                                           R7 R8 R26  0805N2                       RES SMD 3K OHM 5% 1/8W 0805       RC0805JR-073KL       311-3.0KARCT-ND         DK         OK         0.14       1
+                                                  R27 R34
+1    3n3                                          C3         0805N2                       CAP CER 3300PF 50V 1% NP0 0805    GRM2165C1H332FA01J   490-8287-1-ND           DK         OK         0.51       1
+1    4K7                                          R54        0805N2                       RES SMD 4.7K OHM 5% 1/8W 0805     ERJ-6GEYJ472V        P4.7KACT-ND             DK         OK         0.14       1
+1    4u7, 10V, T                                  C20        3216                         CAP TANT 4.7UF 10V 10% 1206       T491A475K010AT       399-3696-1-ND           DK         OK         0.46       1
+1    4u7, T                                       C26        3216                         CAP TANTALUM 4.7UF 6.3V 10% SMD   B45196H1475K109      495-2177-1-ND           DK         OK                    *
+14   10K0                                         R1 R2 R3   0805N2                       RES SMD 10K OHM 1% 1/8W 0805      ERJ-6ENF1002V        P10.0KCCT-ND            DK         OK         0.14       1
+                                                  R4 R5 R6
+                                                  R19 R20
+                                                  R21 R22
+                                                  R23 R24
+                                                  R30 R31
+3    10K                                          R14 R25    0805N2                       RES SMD 10K OHM 5% 1/8W 0805      RC0805JR-0710KL      311-10KARCT-ND          DK         OK         0.14       1
+                                                  R48
+2    10R                                          R32 R50    0805N2                       RES SMD 10 OHM 5% 0.4W 0805       ESR10EZPJ100         RHM10KCT-ND             DK         OK         0.14       1
+8    10n                                          C13 C14    0805N2                       CAP CER 10000PF 50V 10% X7R 0805  GRM216R71H103KA01D   490-1664-1-ND           DK         OK         0.023      50
+                                                  C15 C16
+                                                  C17 C18
+                                                  C21 C29
+1    10uF                                         C10        RB.1/.2                      CAP ALUM 10UF 20% 16V RADIAL      EEA-GA1C100H         P15787CT-ND             DK         OK         0.47       1
+1    16MHZ                                        Y1         CM309S                       Crystals 16MHz 18pF PLASTIC SMD   CM309E-16.000MABJ-UT 695-CM309E-16-U         Mouser     OK         1.23       1
+2    18pF                                         C7 C8      0805N2                       CAP CER 18PF 50V 5% NP0 0805      500R15N180JV4T       709-1171-1-ND           DK         OK         0.13       1
+1    22-28-4043                                   J3         MOLEX-6373-4                 CONN HEADER 4POS .100 VERT GOLD   22-28-4043           WM6504-ND               DK         OK                    *
+1    32KHZ                                        TP1        TESTPOINT-2                  PCB Primitive - Not  a part       N/A                  N/A                     N/A        N/A        N/A        N/A
+2    74LVC4066PW,118                              U20 U22    TSSOP-14N2                   IC SWITCH QUAD SPST 14TSSOP       74LVC4066PW,118      568-9989-1-ND           DK         OK         1.11       1
+6    100K                                         R28 R37    0805N2                       RES SMD 100K OHM 5% 1/8W 0805     ERJ-6GEYJ104V        P100KACT-ND             DK         OK         0.14       1
+                                                  R38 R39
+                                                  R41 R47
+2    100R                                         R29 R45    0805N2                       RES 100 OHM 1/8W 5% 0805 SMD      ERJ-6GEYJ101V        P100ACT-ND              DK         OK         0.14       1
+1    120R                                         R46        0805N2                       RES SMD 120 OHM 5% 1/8W 0805      RC0805JR-07120RL     311-120ARCT-ND          DK         OK         0.14       1
+1    200K                                         R36        0805N2                       RES SMD 200K OHM 5% 1/8W 0805     RC0805JR-07200KL     311-200KARCT-ND         DK         OK         0.14       1
+2    220R                                         R15 R53    0805N2                       RES SMD 220 OHM 5% 1/8W 0805      RC0805JR-07220RL     311-220ARCT-ND          DK         OK         0.14       1
+10   330R                                         R10 R11    0805N2                       RES SMD 330 OHM 5% 1/8W 0805      RC0805JR-07330RL     311-330ARCT-ND          DK         OK         0.14       1
+                                                  R17 R18
+                                                  R33 R42
+                                                  R51 R55
+                                                  R56 R57
+1    470K                                         R16        0805N2                       RES SMD 470K OHM 5% 1/8W 0805     RC0805JR-07470KL     311-470KARCT-ND         DK         OK         0.14       1
+1    510R, 1W                                     R35        2512R2                       RES SMD 510 OHM 5% 1W 2512        RMCF2512JT510R       RMCF2512JT510RCT-ND     DK         OK         0.63       1
+1    510R                                         R40        0805N2                       RES SMD 510 OHM 5% 1/8W 0805      RC0805JR-07510RL     311-510ARCT-ND          DK         OK         0.14       1
+1    2051-09-SM-RPLF                              SG1        1812                         GDT 90V 30% 2KA SURFACE MOUNT     2051-09-SM-RPLF      2051-09-SM-RPLFCT-ND    DK         OK         1.10       1
+1    61729-0010BLF                                J1         USB-B RECEPTICAL             Connector Receptacle USB TypeB    61729-0010BLF        609-1039-ND             DK         OK         1.23       1
+1    1727010                                      J2B        MKDS-2-3.81                  TERM BLOCK 2POS 3.81MM PCB GRN    1727010              277-1947-ND             DK         OK         1.50       1
+1    2041021-4                                    SD1        TE_2041021-4_SDCARD          CONN SD CARD PUSH-PULL R/A SMD    2041021-4            A101492CT-ND            DK         OK         4.16       1
+1    ALOG LOGO                                    LOGO1      ALOG_LOGO_V1_SMALL           BAR CODE FIELD - NOT A PART       N/A                  N/A                     N/A        N/A        N/A        N/A
+1    ATMEGA1284P-AUR                              U1         TQFP-44-10X10X1_0.8_SOT376-1 IC MCU 8BIT 128KB FLASH 44TQFP    ATMEGA1284P-AUR      ATMEGA1284P-AURCT-ND    DK         OK         11.50      1
+3    BAT54C-7-F                                   D4 D6 D7   SOT-23                       DIODE ARRAY SCHOTTKY 30V SOT23-3  BAT54C-7-F           BAT54C-FDICT-ND         DK         OK         0.27       1
+1    BR1225-1HC                                   B1         BR1225/1HF2                  BATTERY LITH 12.5MM COIN W/LEGS   BR1225-1HC           P191-ND                 DK         OK         1.78       1
+2    BSS138                                       Q3 Q4      SOT-23                       MOSFET N-CH 50V 200MA SOT23-3     BSS138-7-F           BSS138-FDICT-ND         DK         OK         0.47       1
+1    CD4050BPWR                                   U4         TSSOP-16R2_4.5MM             IC BUFF/CONVERTER HEX 16TSSOP     CD4050BPWR           296-31504-1-ND          DK         OK         0.59       1
+1    CON2                                         J7         HEADER-2X1                   CONN HEADER 2POS .100" SGL GOLD   TSW-102-07-L-S       SAM1031-02-ND           DK         OK         0.95       1
+1    CON4                                         H3         MOLEX-6373-4                 CONN TERM BLOCK 2.54MM 4POS PCB   OSTVN04A150          ED10563-ND              DK         OK         1.41       1
+1    CON6                                         J5         MOLEX-6373-6                 CONN TERM BLOCK 2.54MM 6POS PCB   OSTVN06A150          ED10565-ND              DK         OK         1.97       1
+2    CON8                                         H1 H2      MOLEX-6373-8                 CONN TERM BLOCK 2.54MM 8POS PCB   OSTVN08A150          ED10566-ND              DK         OK         2.63       1
+1    CSD                                          TP4        TESTPOINT-2                  PCB Primitive - Not  a part       N/A                  N/A                     N/A        N/A        N/A        N/A
+1    DS3231                                       U6         SOL-16R2                     IC RTC CLK/CALENDAR I2C 16-SOIC   DS3231SN#T&R         DS3231SN#T&RCT-ND       DK         OK         13.37      1
+3    FDN360P                                      Q1 Q2 Q5   SOT-23                       MOSFET P-CH 30V 2A SSOT3          FDN360P              FDN360PCT-ND            DK         OK         0.6020     10
+1    FT232RL                                      U5         SSOP-28                      IC USB FS SERIAL UART 28-SSOP     FT232RL-REEL         768-1007-1-ND           DK         OK         6.03       1
+2    HEADER 4X2                                   JP2 JP3    HEADER-4X2                   *                                 *                    *                       *          *          *          *
+1    HEADER 5X2                                   JP4        HEADER-5X2                   CONN HEADER 10POS .100" DL GOLD   TSW-105-07-L-D       SAM1030-05-ND           DK         OK         2.37       1
+1    ISP                                          JP1        HEADER-8X2                   CONN HEADER 16POS .100" DL GOLD   TSW-108-07-L-D       SAM1030-08-ND           DK         OK         2.86       1
+1    LM4132AMF-3.0/NOPB                           U18        SOT-23-5                     IC VREF SERIES 3V SOT23-5         LM4132AMF-3.0/NOPB   LM4132AMF-3.0/NOPBCT-ND DK         OK         4.38       1
+2    LP2985-33DBVR                                U2 U3      SOT-23-5                     IC REG LDO 3.3V 0.15A SOT23-5     LP2985-33DBVR        296-18476-1-ND          DK         OK         0.8        1
+1    LTC1482CS8                                   U12        SO-8                         IC TXRX RS485 LOWPWR 8-SOIC       LTC1482CS8#PBF       LTC1482CS8#PBF-ND       DK         OK         4.46       1
+1    LTC1669                                      U15        MSOP-8                       IC DAC 10BIT R-R I2C 8-MSOP       LTC1669CMS8#PBF      LTC1669CMS8#PBF-ND      DK         OK         4.72       1
+1    LTC4412                                      U7         SOT-23-6                     IC OR CTRLR SRC SELECT TSOT23-6   LTC4412ES6#TRMPBF    LTC4412ES6#TRMPBFCT-ND  DK         OK         4.26       1
+1    M24M02-DRMN6TP                               U19        SO-8                         IC EEPROM 2MBIT 1MHZ 8SO          M24M02-DRMN6TP       497-11600-1-ND          DK         OK         6.26       1
+1    MAN LOG                                      SW1        SWITCH_EVQPE1_PANASONIC      SWITCH TACTILE SPST-NO 0.05A 12V  EVQ-PE104K           P13593SCT-ND            DK         OK         1.03       1
+1    MINIASMDC020F-2                              F2         1812R2                       POLYSWITCH 0.20A RESET FUSE SMD   MINIASMDC020F-2      MINIASMDC020F-2CT-ND    DK         OK         0.57500    10
+2    MMBZ5V6ALT1                                  TVS2 TVS3  SOT-23                       TVS ZENER DUAL 24W CA 5.6V SOT23  MMBZ5V6ALT1G         MMBZ5V6ALT1GOSCT-ND     DK         OK         0.32       1
+1    NORTHERN WIDGET LOGO                         LOGO2      NWLOGO                       BAR CODE FIELD - NOT A PART       N/A                  N/A                     N/A        N/A        N/A        N/A
+1    OSHW_FILLX200                                OSHW1      OSHW_FILLX200_NOTEXT_N1      BAR CODE FIELD - NOT A PART       N/A                  N/A                     N/A        N/A        N/A        N/A
+1    OSTVN03A150                                  J4         MOLEX-6373-3                 CONN TERM BLOCK 2.54MM 3POS PCB   OSTVN03A150          ED10562-ND              DK         OK         1.06       1
+1    PJ-102A                                      J2         PCOAX-PJ-102A                CONN JACK POWER 2.1MM PCB         PJ-102A              CP-102A-ND              DK         OK         1.34       1
+1    PPPC061LFBN-RC                               J6         HEADER-6X1                   Connector Header 6 Position 0.100 PPPC061LFBN-RC       S7039-ND                DK         OK         0.94       1
+1    RESET                                        SW2        SWITCH_EVQPE1_PANASONIC      SWITCH TACTILE SPST-NO 0.05A 12V  EVQ-PE104K           P13593SCT-ND            DK         OK         1.03       1
+1    RX                                           D3         LED-1206                     LED RED ORANGE CLEAR 1206 SMD     LTST-C150EKT         160-1168-6-ND           DK         OK         0.48       1
+1    SER. NUM.                                    SN1        STATIC-0.25"                 BAR CODE FIELD - NOT A PART       N/A                  N/A                     N/A        N/A        N/A        N/A
+1    SF1                                          D1         LED-1206                     LED GREEN CLEAR 1206 SMD          LTST-C150KGKT        160-1404-1-ND           DK         OK         0.52       1
+1    SMAJ4737A-TP                                 ZD1        SMA-DIODE                    DIODE ZENER 7.5V 1W DO214AC       SMAJ4737A-TP         SMAJ4737A-TPMSCT-ND     DK         OK         0.66       1
+2    SN74AHC1G14DBVR                              U9 U10     SOT-23-5                     IC SCHMITT-TRG INV GATE SOT23-5   SN74AHC1G14DBVR      296-1092-1-ND           DK         OK         0.66       1
+2    SN74LVC1G08DBVR                              U16 U21    SOT-23-5                     IC GATE AND 1CH 2-INP SOT-23-5    SN74LVC1G08DBVR      296-11601-1-ND          DK         OK         0.66       1
+1    SN74LVC1G125DBVR                             U8         SOT-23-5                     IC BUS BUFF TRI-ST N-INV SOT23-5  SN74LVC1G125DBVR     296-11603-1-ND          DK         OK         0.52       1
+1    SN74LVC1G126DBVR                             U11        SOT-23-5                     IC BUS BUFF TRI-ST N-INV SOT23-5  SN74LVC1G126DBVR     296-11605-1-ND          DK         OK         0.52       1
+2    SN74LVC1G3157                                U17 U23    SOT-23-6                     IC SWITCH SPDT SOT23-6            SN74LVC1G3157DBVR    296-14908-1-ND          DK         OK         0.52       1
+1    TBD                                          FB1        1206N2                       *                                 *                    *                       *          *          *          *
+1    TMP101                                       U14        SOT-23-6                     IC TEMP SENSOR DIGITAL SOT-23-6   TMP101NA/250         296-12750-1-ND          DK         OK         3.66       100
+1    TSW-102-07-L-S                               JP6        HEADER-2X1                   CONN HEADER 2POS .100" SGL GOLD   TSW-102-07-L-S       SAM1031-02-ND           DK         OK         0.95       1
+1    TX                                           D2         LED-1206                     LED RED CLEAR 1206 SMD            LTST-C150CKT         160-1167-1-ND           DK         OK         0.52       1
+1    TZ5.6V                                       D5         SMB-DIODE                    DIODE ZENER 3W 5.6V SMB           1SMB5919BT3G         1SMB5919BT3GOSCT-ND     DK         OK                    *
+1    USBLC6-2                                     TVS1       SOT-23-6                     IC ESD PROTECTION FOR HS SOT-23-6 USBLC6-2SC6Y         497-11882-1-ND          DK         OK         1.046      10
+1    VBE                                          JP5        HEADER-2X1                   CONN HEADER 2POS .100" SGL GOLD   TSW-102-07-L-S       SAM1031-02-ND           DK         OK         0.95       1
+1    VREF SEL                                     SP1        SOLDERPAD-2WAY               *                                 *                    *                       *          *          *          *
+1    VUSB                                         TP3        TESTPOINT-2                  PCB Primitive - Not  a part       N/A                  N/A                     N/A        N/A        N/A        N/A
+1    microSMD050                                  F1         1210N2                       POLYSWITCH 0.50A RESET FUSE SMD   MICROSMD050F-2       MICROSMD050FCT-ND       DK         OK         0.575      10

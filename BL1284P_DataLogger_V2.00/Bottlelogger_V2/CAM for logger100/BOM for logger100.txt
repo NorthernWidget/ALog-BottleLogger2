@@ -1,0 +1,184 @@
+Bill Of Material For logger100.pcb
+On 3-Oct-2015  at 12:48:53
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+
+
+ 0u1                 0805N2          15    C1, C2, C3A, C3B, C3C, C6, C9,
+                                           C19, C22, C23, C24, C25, C27,
+                                           C28, C30
+
+ 100K                0805N2           6    R28, R37, R38, R39, R41, R47
+
+ 100R                0805N2           2    R29, R45
+
+ 10K                 0805N2           3    R14, R25, R48
+
+ 10K0                0805N2           2    R30, R31
+
+ 10R                 0805N2           2    R32, R50
+
+ 10n                 0805N2           8    C13, C14, C15, C16, C17, C18,
+                                           C21, C29
+
+ 10uF                RB.1/.2          1    C10
+
+ 120R                0805N2           1    R46
+
+ 16MHZ               CM309S           1    Y1
+
+ 1727010             MKDS-2-3.81      1    J2B
+
+ 18pF                0805N2           2    C7, C8
+
+ 1K                  0805N2           6    R9, R12, R13, R43, R44, R49
+
+ 1uF                 0805N2           2    C11, C12
+
+ 200K                0805N2           1    R36
+
+ 2041021-4           TE_2041021-4_SDCARD     1    SD1
+
+ 2051-09-SM-RPLF     1812             1    SG1
+
+ 22-28-4043          MOLEX-6373-4     1    J3
+
+ 220R                0805N2           2    R15, R53
+
+ 2u2                 0805N2           2    C4, C5
+
+ 3.3V                TESTPOINT-2      1    TP2
+
+ 32KHZ               TESTPOINT-2      1    TP1
+
+ 330R                0805N2           8    R17, R18, R33, R42, R51, R55,
+                                           R56, R57
+
+ 3K                  0805N2           5    R7, R8, R26, R27, R34
+
+ 3K(DNP)             0805N2           1    R52
+
+ 3n3                 0805N2           1    C3
+
+ 470K                0805N2           1    R16
+
+ 4K7                 0805N2           3    R10, R11, R54
+
+ 4u7, 10V, T         3216             1    C20
+
+ 4u7, T              3216             1    C26
+
+ 510R                0805N2           1    R40
+
+ 510R, 1W            2512R2           1    R35
+
+ 61729-0010BLF       USB-B RECEPTICAL     1    J1
+
+ 74LVC4066PW,118     TSSOP-14N2       2    U20, U22
+
+ ALOG LOGO           ALOG_LOGO_V1_SMALL     1    LOGO1
+
+ ATMEGA1284P-AUR     TQFP-44-10X10X1_0.8_SOT376-1     1    U1
+
+ BAT54C-7-F          SOT-23           3    D4, D6, D7
+
+ BR1225-1HC          BR1225/1HF2      1    B1
+
+ BSS138              SOT-23           2    Q3, Q4
+
+ CD4050BPWR          TSSOP-16R2_4.5MM     1    U4
+
+ CON2                HEADER-2X1       1    J7
+
+ CON4                MOLEX-6373-4     1    H3
+
+ CON6                MOLEX-6373-6     1    J5
+
+ CON8                MOLEX-6373-8     2    H1, H2
+
+ CSD                 TESTPOINT-2      1    TP4
+
+ DS3231              SOL-16R2         1    U6
+
+ FDN360P             SOT-23           3    Q1, Q2, Q5
+
+ FT232RL             SSOP-28          1    U5
+
+ HEADER 4X2          HEADER-4X2       2    JP2, JP3
+
+ HEADER 5X2          HEADER-5X2       1    JP4
+
+ ISP                 HEADER-8X2       1    JP1
+
+ LM4132AMF-3.0/NOPB  SOT-23-5         1    U18
+
+ LP2985-33DBVR       SOT-23-5         2    U2, U3
+
+ LTC1482CS8          SO-8             1    U12
+
+ LTC1669             MSOP-8           1    U15
+
+ LTC4412             SOT-23-6         1    U7
+
+ M24M02-DRMN6TP      SO-8             1    U19
+
+ MAN LOG             SWITCH_EVQPE1_PANASONIC     1    SW1
+
+ MMBZ5V6ALT1         SOT-23           2    TVS2, TVS3
+
+ NANOASMDC020F-2     1812R2           1    F2
+
+ NORTHERN WIDGET LOGONWLOGO           1    Logo2
+
+ OSHW_FILLX200       OSHW_FILLX200_NOTEXT_N1     1    OSHW1
+
+ OSTVN03A150         MOLEX-6373-3     1    J4
+
+ PJ-102A             PCOAX-PJ-102A     1    J2
+
+ PPPC061LFBN-RC      HEADER-6X1       1    J6
+
+ RESET               SWITCH_EVQPE1_PANASONIC     1    SW2
+
+ RX                  LED-1206         1    D3
+
+ SEL                 0805N2          12    R1, R2, R3, R4, R5, R6, R19,
+                                           R20, R21, R22, R23, R24
+
+ SER. NUM.           STATIC-0.25"     1    SN1
+
+ SF1                 LED-1206         1    D1
+
+ SMAJ4737A-TP        SMA-DIODE        1    ZD1
+
+ SN74AHC1G14DBVR     SOT-23-5         2    U9, U10
+
+ SN74LVC1G08DBVR     SOT-23-5         2    U16, U21
+
+ SN74LVC1G125DBVR    SOT-23-5         1    U8
+
+ SN74LVC1G126DBVR    SOT-23-5         1    U11
+
+ SN74LVC1G3157       SOT-23-6         2    U17, U23
+
+ TBD                 1206N2           1    FB1
+
+ TMP101              SOT-23-6         1    U14
+
+ TSW-102-07-L-S      HEADER-2X1       1    JP6
+
+ TX                  LED-1206         1    D2
+
+ TZ5.6V              SMB-DIODE        1    D5
+
+ USBLC6-2            SOT-23-6         1    TVS1
+
+ VBE                 HEADER-2x1       1    JP5
+
+ VREF SEL            SOLDERPAD-2WAY     1    SP1
+
+ VUSB                TESTPOINT-2      1    TP3
+
+ microSMD050         1210N2           1    F1
+

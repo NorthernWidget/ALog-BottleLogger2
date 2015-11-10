@@ -1,0 +1,9 @@
+[Design Root]
+Version=1.0.0
+[Directory]
+Bottlelogger_V2=Folder
+SupportDrawings=Folder
+[Bottlelogger_V2]
+Editor Kind=Folder
+[SupportDrawings]
+Editor Kind=Folder

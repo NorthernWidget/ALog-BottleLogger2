@@ -1,0 +1,10 @@
+[Directory]
+logger100.pcb=PCB
+CAM Outputs for logger100.cam=CAMManager
+Preview logger100.PPC=PCBPrint
+[logger100.pcb]
+Editor Kind=PCB
+[CAM Outputs for logger100.cam]
+Editor Kind=CAMManager
+[Preview logger100.PPC]
+Editor Kind=PCBPrint

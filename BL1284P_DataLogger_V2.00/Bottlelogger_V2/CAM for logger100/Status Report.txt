@@ -1,0 +1,30 @@
+CAM Outputs Generation Report
+for 'CAM Outputs for logger100.cam'
+at 12:48:51 on 3-Oct-2015 
+
+
+'Pick Place Output 1'
+'Pick Place for logger100.txt' generated
+
+'BOM Output 1'
+'BOM for logger100.txt' generated
+
+'NC Drill Output 1'
+'logger100.TXT' generated
+'logger100.DRL' generated
+'logger100.DRR' generated
+
+'Gerber Output 1'
+'logger100.GTL' generated
+'logger100.GBL' generated
+'logger100.GTO' generated
+'logger100.GBO' generated
+'logger100.GTP' generated
+'logger100.GBP' generated
+'logger100.GTS' generated
+'logger100.GBS' generated
+'logger100.GM1' generated
+'logger100.REP' generated
+
+
+Total number of generated files = 15

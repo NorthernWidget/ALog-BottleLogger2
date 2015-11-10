@@ -1,0 +1,5 @@
+Begin Dialog TypeDialog1 100, 100, 170, 100, "Dialog 1"
+Begin Dialog TypeDialog1 100, 100, 170, 100, "Dialog 1"
+End Dialog
+End DialogBegin Dialog TypeDialog1 100, 100, 170, 100, "Dialog 1"
+End Dialog

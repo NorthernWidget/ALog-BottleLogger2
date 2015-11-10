@@ -1,0 +1,83 @@
+[Directory]
+logger100.DRC=Text
+logger100.pcb=PCB
+Logger100PR.cfg=Text
+Logger100PR.NET=Text
+Logger100PR.REP=Text
+Logger100PR.sch=Sch
+logger100.txt=Text
+Logger100PR.ERC=Text
+Preview logger100.PPC=PCBPrint
+Logger100PR.Bom=Text
+Logger100.prj=Sch
+Logger100_IO.sch=Sch
+Logger100.ERC=Text
+Logger100.REP=Text
+Logger100.cfg=Text
+Logger100.NET=Text
+Logger100.Bom=Text
+Sheet1.Sch=Sch
+Doc1.Txt=Text
+logger100_pcb.lib=PCBLib
+CAM Outputs for logger100.cam=CAMManager
+CAM for logger100=Folder
+Assembly=Folder
+Logger100_sch.lib=SchLib
+Logger100.lib=SchLib
+[logger100.DRC]
+Editor Kind=Text
+[logger100.pcb]
+Editor Kind=PCB
+[Logger100PR.cfg]
+Editor Kind=Text
+[Logger100PR.NET]
+Editor Kind=Text
+[Logger100PR.REP]
+Editor Kind=Text
+[Logger100PR.sch]
+Editor Kind=Sch
+[logger100.txt]
+Editor Kind=Text
+[Logger100PR.ERC]
+Editor Kind=Text
+[Preview logger100.PPC]
+Editor Kind=PCBPrint
+[Logger100PR.Bom]
+Editor Kind=Text
+[Logger100.prj]
+Editor Kind=Sch
+Attributes=131072
+[Logger100_IO.sch]
+Editor Kind=Sch
+[Logger100.ERC]
+Editor Kind=Text
+[Logger100.REP]
+Editor Kind=Text
+[Logger100.cfg]
+Editor Kind=Text
+Attributes=131072
+[Logger100.NET]
+Editor Kind=Text
+[Logger100.Bom]
+Editor Kind=Text
+[Sheet1.Sch]
+Editor Kind=Sch
+[Doc1.Txt]
+Editor Kind=Text
+[logger100_pcb.lib]
+Editor Kind=PCBLib
+Description=logger100.lib
+[CAM Outputs for logger100.cam]
+Editor Kind=CAMManager
+[CAM for logger100]
+Editor Kind=Folder
+[Assembly]
+Editor Kind=Folder
+[Logger100_sch.lib]
+Editor Kind=SchLib
+[Logger100.prj Childlist]
+ChildCount=2
+Child1=Logger100PR.sch
+Child2=Logger100_IO.sch
+[Logger100.lib]
+Editor Kind=SchLib
